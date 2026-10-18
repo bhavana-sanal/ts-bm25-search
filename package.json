@@ -1,0 +1,17 @@
+{
+  "name": "ts-bm25-search",
+  "version": "1.0.0",
+  "description": "A tiny full-text search engine using BM25 ranking, written in TypeScript",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test dist/test/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
